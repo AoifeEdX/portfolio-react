@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { FaFileAlt } from "react-icons/fa";
 import Resume from "../assets/resume/EdX-CV.pdf"
 import "../pages/style.css";
 
@@ -26,7 +27,7 @@ function Header() {
 						{['About', 'Projects', 'Contact'].map((item, index) => (
 							<Nav.Item key={index}>
 								<NavLink
-									className="nav-link mx-4 fw-bold text-end"
+									className="nav-link mx-4 fw-bold fs-5 text-end"
 									style={({ isActive }) => (
 										{
 											color: isActive ? '#de5555' : '',
@@ -44,9 +45,9 @@ function Header() {
 						<a
 							href={Resume}
 							download="EdX-CV.pdf"
-							className="btn btn-outline-danger ms-5 fw-bold"
-						>
-							Resume
+							className="btn btn-outline-danger ms-5 fw-bold fs-5"
+						><FaFileAlt className="me-2 pb-1"/>
+							 Resume
 						</a>
 					</Nav>
 				</Navbar.Collapse>
