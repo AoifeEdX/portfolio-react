@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import { Button, Container, Row, Col } from 'react-bootstrap'
-import { FaRegEnvelope, FaPhone } from "react-icons/fa";
+import { FaRegEnvelope, FaGithub, FaLinkedinIn, FaPhone } from "react-icons/fa";
 import "../pages/style.css";
 
 function ContactPage() {
-  const [email, setEmail] = useState(""); // State to manage email address
-  const [name, setName] = useState(""); // State to manage name input
-  const [message, setMessage] = useState(""); // State to manage message input
+	const [email, setEmail] = useState(""); // State to manage email address
+	const [name, setName] = useState(""); // State to manage name input
+	const [message, setMessage] = useState(""); // State to manage message input
 
-  // Function to handle form submission
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Message:", message);
-    // Reset form fields
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
+	// Function to handle form submission
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		console.log("Name:", name);
+		console.log("Email:", email);
+		console.log("Message:", message);
+		// Reset form fields
+		setName("");
+		setEmail("");
+		setMessage("");
+	};
 
 	return (
 		<div>
@@ -35,36 +35,64 @@ function ContactPage() {
 				<Row>
 					{/* Column for the contact information */}
 					<Col md={7}>
-						{/* Contact phone */}
-						<p className="my-5 fs-5">
-							<a
-								href="tel:+440123456789"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
-							>
-								{/* Phone icon */}
-								<FaPhone className='fs-2 me-2 text-danger me-4' />
-								+44 01 2345 6789
-							</a>
-						</p>
-						{/* Contact email */}
-						<p className="my-5 fs-5">
-							<a
-								href="mailto:aoife.z.dunphy@gmail.com"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
-							>
-								{/* Email icon */}
-								<FaRegEnvelope className='fs-2 me-2 text-danger me-4' />
-								aoife.z.dunphy@gmail.com
-							</a>
-						</p>
 						{/* Introduction */}
 						<p className="my-5 fs-5">
-							<span>Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							If you're interested in <span>working with me</span> or <span>have any questions,</span> please don't hesitate to contact me. I am always happy to chat about web development and how I can help with your next project.
 						</p>
+						<div className="fs-5">
+							{/* Contact phone */}
+							<p className="mt-5">
+								<a
+									href="tel:+440123456789"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
+								>
+									{/* Phone icon */}
+									<FaPhone className='fs-2 me-2 text-danger me-4' />
+									+44 01 2345 6789
+								</a>
+							</p>
+							{/* Contact email */}
+							<p className="mt-4">
+								<a
+									href="mailto:aoife.z.dunphy@gmail.com"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
+								>
+									{/* Email icon */}
+									<FaRegEnvelope className='fs-2 me-2 text-danger me-4' />
+									aoife.z.dunphy@gmail.com
+								</a>
+							</p>
+							{/* GitHub profile */}
+							<p className="mt-4">
+							<a
+								href="https://github.com/AoifeEdX"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
+							>
+								{/* GitHub icon */}
+								<FaGithub className='fs-2 me-2 text-danger me-4' />
+								GitHub
+							</a>
+						</p>
+						{/* LinkedIn profile */}
+						<p className="mt-4">
+							<a
+								href="https://www.linkedin.com/in/aoifenidhonnacha/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
+							>
+								{/* LinkedIn icon */}
+								<FaLinkedinIn className='fs-2 me-2 text-danger me-4' />
+								LinkedIn
+							</a>
+						</p>
+						</div>
 					</Col>
 					{/* Column for the contact form */}
 					<Col md={5} className="p-5">
@@ -110,7 +138,7 @@ function ContactPage() {
 			</Container>
 		</div>
 	);
-	
+
 };
 
 export default ContactPage;
