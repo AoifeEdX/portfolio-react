@@ -8,16 +8,16 @@ import "../pages/style.css";
 function AboutPage() {
 	return (
 		<div>
-			<Container>
+			<Container className="mt-3 pt-3">
 				{/* Row containing the about section */}
 				<Row className="mt-3 pt-3">
-					<Col md={5} className="py-5">
+					<Col md={5} >
 						{/* Div for styling the image */}
 						<div className="about my-5 py-5 text-center">
 							<img src={AboutImage} alt="" srcset="" />
 						</div>
 					</Col>
-					<Col md={7} className="my-5 py-5">
+					<Col md={7}>
 						<h2>About Me</h2>
 						{/* Horizontal line */}
 						<hr></hr>

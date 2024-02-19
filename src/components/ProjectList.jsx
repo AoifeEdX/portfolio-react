@@ -7,7 +7,7 @@ import "../pages/style.css";
 function ProjectList() {
   return (
     <div>
-      <Container fluid className="my-5 py-5">
+      <Container fluid className="my-3 py-3">
         <Container>
           <Row className="mt-3 pt-3">
             <Col md={12} >

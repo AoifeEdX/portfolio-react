@@ -26,7 +26,7 @@ function ContactPage() {
 			<Container>
 				{/* Row for the header */}
 				<Row className="mt-3 pt-3">
-					<Col md={12} className="mt-5 pt-5">
+					<Col md={12} className="mt-3 pt-3">
 						<h2>Contact Me</h2>
 						{/* Horizontal line */}
 						<hr />
