@@ -55,7 +55,6 @@ function ContactPage() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
-								onClick={() => setEmail("aoife.z.dunphy@gmail.com")}
 							>
 								{/* Email icon */}
 								<FaRegEnvelope className='fs-2 me-2 text-danger me-4' />
