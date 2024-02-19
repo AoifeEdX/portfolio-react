@@ -21,7 +21,7 @@ function HomePage() {
 						<h2>Hello! <span className='wave'>👋 </span></h2>
 						<h2>I am Aoife, and I am a</h2>
 						{/* Typewriter style text */}
-						<div className="mb-5">
+						<div className="pb-5">
 							<Text />
 						</div>
 						{/* Social links */}
