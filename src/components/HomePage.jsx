@@ -16,20 +16,20 @@ function HomePage() {
 							<img src={profile} alt="" />
 						</div>
 					</Col>
-					<Col md={6} className="my-5 p-5">
+					<Col md={6} className="my-4 p-5">
 						{/* Waving emoji */}
 						<h2>Hello! <span className='wave'>👋 </span></h2>
 						<h2>I am Aoife, and I am a</h2>
 						{/* Typewriter style text */}
-						<div className="pb-5">
+						<div className="pb-3">
 							<Text />
 						</div>
 						{/* Social links */}
 						<div className="mt-5">
-							<a href="https://github.com/AoifeEdX" target="_blank" rel="noopener noreferrer"><FaGithub className='fs-2 me-5 text-danger' /></a>
-							<a href="https://www.linkedin.com/in/aoifenidhonnacha/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='fs-2 me-5 text-danger' /></a>
-							<a href="https://www.reddit.com/user/AoifeEdX" target="_blank" rel="noopener noreferrer"><FaRedditAlien className='fs-2 me-5 text-danger' /></a>
-							<a href="https://instagram.com/aoife.z.dunphy" target="_blank" rel="noopener noreferrer"><FaInstagram className='fs-2 text-danger' /></a>
+							<a href="https://github.com/AoifeEdX" target="_blank" rel="noopener noreferrer"><FaGithub className='fs-1 me-5 text-danger' /></a>
+							<a href="https://www.linkedin.com/in/aoifenidhonnacha/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='fs-1 me-5 text-danger' /></a>
+							<a href="https://www.reddit.com/user/AoifeEdX" target="_blank" rel="noopener noreferrer"><FaRedditAlien className='fs-1 me-5 text-danger' /></a>
+							<a href="https://instagram.com/aoife.z.dunphy" target="_blank" rel="noopener noreferrer"><FaInstagram className='fs-1 text-danger' /></a>
 						</div>
 					</Col>
 				</Row>
