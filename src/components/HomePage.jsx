@@ -21,7 +21,9 @@ function HomePage() {
 						<h2>Hello! <span className='wave'>👋 </span></h2>
 						<h2>I am Aoife, and I am a</h2>
 						{/* Typewriter style text */}
-						<Text />
+						<div className="mb-5 pb-5">
+							<Text />
+						</div>
 						{/* Social links */}
 						<div className="mt-5">
 							<a href="https://github.com/AoifeEdX" target="_blank" rel="noopener noreferrer"><FaGithub className='fs-2 me-5 text-danger' /></a>
@@ -36,13 +38,13 @@ function HomePage() {
 					<Col md={12}>
 						<h2 className="text-center">Welcome to my <span>portfolio</span></h2>
 						<div className="fs-5">
-						<hr></hr>
-						<p className="mt-5">
-						I am a passionate <span>web developer</span> with experience in building responsive and dynamic websites. I specialize in creating <span>clean, elegant, and user-friendly solutions</span> for various web development needs.
-						</p>
-						<p className="mt-5">
-						I have a strong background in <span>HTML, CSS, JavaScript,</span> and various web development frameworks. I am committed to staying up-to-date with the latest web technologies and best practices to deliver high-quality solutions that meet my clients' needs.
-						</p></div>
+							<hr></hr>
+							<p className="mt-5">
+								I am a passionate <span>web developer</span> with experience in building responsive and dynamic websites. I specialize in creating <span>clean, elegant, and user-friendly solutions</span> for various web development needs.
+							</p>
+							<p className="mt-5">
+								I have a strong background in <span>HTML, CSS, JavaScript,</span> and various web development frameworks. I am committed to staying up-to-date with the latest web technologies and best practices to deliver high-quality solutions that meet my clients' needs.
+							</p></div>
 					</Col>
 				</Row>
 			</Container>
