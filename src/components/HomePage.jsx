@@ -32,10 +32,10 @@ function HomePage() {
 					</Col>
 				</Row>
 				{/* Section for some body text */}
-				<Row className="my-5 py-5">
+				<Row className="my-5 py-5 body-text">
 					<Col md={12}>
 						<h2 className="text-center">Welcome to my <span>portfolio</span></h2>
-						<div className="mx-5 px-5 fs-5">
+						<div className="fs-5">
 						<hr></hr>
 						<p className="mt-5">
 						I am a passionate <span>web developer</span> with experience in building responsive and dynamic websites. I specialize in creating <span>clean, elegant, and user-friendly solutions</span> for various web development needs.

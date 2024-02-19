@@ -110,3 +110,22 @@ span {
 .dark-mode .invert-image {
 	filter: none;
 }
+
+/* Responsive style  */
+@media (min-width: 992px) {
+  .body-text {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+    font-weight: 500 !important;
+    position: absolute !important;
+  }
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
