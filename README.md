@@ -21,6 +21,7 @@ You can see a live demo of the website [here](https://www.example.com).
 
 Instructions provided by EdX (Skills Boot Camp in Front-End Web Development). 
 Icons from FontAwesome.
+Homepage text typewriter design inspired by [soumyajit](https://github.com/soumyajit4419/Portfolio).
 
 ## Features
 
