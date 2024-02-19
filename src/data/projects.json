@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Horiseon",
     "description": "Horiseon (HTML + CSS)",
-    "imgPath": "/src/assets/images/projects/horiseon.jpg",
+    "imgPath": "/assets/images/projects/horiseon.jpg",
     "deployedLink": "https://aoifeedx.github.io/horiseon-code-refactor/",
     "githubLink": "https://github.com/AoifeEdX/horiseon-code-refactor/"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Portfolio Bootstrap",
     "description": "Portfolio (Bootstrap)",
-    "imgPath": "/src/assets/images/projects/portfolio-bootstrap.jpg",
+    "imgPath": "/assets/images/projects/portfolio-bootstrap.jpg",
     "deployedLink": "https://aoifeedx.github.io/portfolio-bootstrap/",
     "githubLink": "https://github.com/AoifeEdX/portfolio-bootstrap"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Weather Dashboard",
     "description": "Weather Dashboard (API)",
-    "imgPath": "/src/assets/images/projects/weather.jpg",
+    "imgPath": "/assets/images/projects/weather.jpg",
     "deployedLink": "https://aoifeedx.github.io/weather-dashboard/",
     "githubLink": "https://github.com/AoifeEdX/weather-dashboard/"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Code Quiz",
     "description": "Code Quiz (HTML, CSS + JS)",
-    "imgPath": "/src/assets/images/projects/code-quiz.jpg",
+    "imgPath": "/assets/images/projects/code-quiz.jpg",
     "deployedLink": "https://aoifeedx.github.io/code-quiz/",
     "githubLink": "https://github.com/AoifeEdX/code-quiz/"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Team Profile Generator",
     "description": "Team Profile Generator (Node JS)",
-    "imgPath": "/src/assets/images/projects/team-profile.jpg",
+    "imgPath": "/assets/images/projects/team-profile.jpg",
     "deployedLink": "https://aoifeedx.github.io/team-profile-generator/",
     "githubLink": "https://github.com/AoifeEdX/team-profile-generator"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "CityBookWings",
     "description": "CityBookWings (API)",
-    "imgPath": "/src/assets/images/projects/citybookwings.jpg",
+    "imgPath": "/assets/images/projects/citybookwings.jpg",
     "deployedLink": "https://aoifeedx.github.io/city-book-wings",
     "githubLink": "https://github.com/AoifeEdX/city-book-wings"
   }
