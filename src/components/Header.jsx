@@ -27,7 +27,7 @@ function Header() {
 						{['About', 'Projects', 'Contact'].map((item, index) => (
 							<Nav.Item key={index}>
 								<NavLink
-									className="nav-link mx-4 fw-bold fs-5 text-end"
+									className="nav-link mx-3 fs-5 fw-bold text-end"
 									style={({ isActive }) => (
 										{
 											color: isActive ? '#de5555' : '',
@@ -45,7 +45,7 @@ function Header() {
 						<a
 							href={Resume}
 							download="EdX-CV.pdf"
-							className="btn btn-outline-danger ms-5 fw-bold fs-5"
+							className="btn btn-outline-danger ms-4 fs-5"
 						><FaFileAlt className="me-2 pb-1"/>
 							 Resume
 						</a>
