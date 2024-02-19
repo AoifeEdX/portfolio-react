@@ -17,8 +17,7 @@ function HomePage() {
 						</div>
 					</Col>
 					<Col md={6} className="my-4 p-5">
-						{/* Waving emoji */}
-						<h2>Hello! <span className='wave'>👋 </span></h2>
+						<h1 className="mb-4">Hello there.</h1>
 						<h2>I am Aoife, and I am a</h2>
 						{/* Typewriter style text */}
 						<div className="pb-3">
