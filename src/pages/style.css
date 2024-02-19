@@ -17,10 +17,10 @@
 /* Homepage style */
 
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation; /* @keyframes element */
+  animation-duration: 2.1s; /* Speed of wavng animation */
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%; 
   display: inline-block;
 }
 
@@ -62,11 +62,10 @@ span {
 
 .project-card-view {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; /* Drop shadow for project cards */
   color: #191919;
   background-color: transparent;
   border: transparent;
-  opacity: 0.9;
   transition: all 0.5s ease 0s;
   height: 100%;
   border-radius: 15px;
