@@ -11,6 +11,8 @@ function Footer() {
 					© Copyright 2024</p>
 				<p> Designed & built by <strong>AoifeEdX</strong>
 				</p>
+				<p> Observe this <a rel="noopener noreferrer"	className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"href="https://aoifeedx.github.io/portfolio-bootstrap/assets/images/goat-blep.png" target="_blank">goat</a>.
+				</p>
 			</div>
 		</footer>
 	);
