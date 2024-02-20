@@ -4,18 +4,18 @@ This is a simple portfolio website built using React.js. It showcases my project
 
 ## Table of Contents
 
-- [Live link](#demo)
+- [Deployed](#Deployed)
 - [Features](#features)
 - [Technologies](#technologies)
 - [License](#license)
 
-## Live link
+## Deployed
 
-You can see a live demo of the portfolio [here](https://aoifeedx-portfolio.netlify.app/).
+You can see the live portfolio [here](https://aoifeedx-portfolio.netlify.app/).
 
 
 ### Screenshot
-![screenshot](./src/assets/images/screenshot.png)
+![screenshot](./src/assets/images/screenshot.gif)
 
 ## Credits
 
