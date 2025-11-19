@@ -44,7 +44,7 @@ function Header() {
 						{/* Button to download PDF CV */}
 						<a
 							href={Resume}
-							download="EdX-CV.pdf"
+							download="#"
 							className="btn btn-outline-danger ms-4 fs-5"
 						><FaFileAlt className="me-2 pb-1"/>
 							 Resume
