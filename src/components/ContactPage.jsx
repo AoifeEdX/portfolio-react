@@ -82,7 +82,7 @@ function ContactPage() {
 						{/* LinkedIn profile */}
 						<p className="mt-4">
 							<a
-								href="https://www.linkedin.com/in/aoifenidhonnacha/"
+								href="#"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
