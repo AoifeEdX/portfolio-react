@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { FaFileAlt } from "react-icons/fa";
-import Resume from "../assets/resume/EdX-CV.pdf"
 import "../pages/style.css";
 
 function Header() {
