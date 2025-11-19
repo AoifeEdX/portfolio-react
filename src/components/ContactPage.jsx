@@ -56,14 +56,14 @@ function ContactPage() {
 							{/* Contact email */}
 							<p className="mt-4">
 								<a
-									href="mailto:aoife.z.dunphy@gmail.com"
+									href="#"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"
 								>
 									{/* Email icon */}
 									<FaRegEnvelope className='fs-2 me-2 text-danger me-4' />
-									aoife.z.dunphy@gmail.com
+									email@gmail.com
 								</a>
 							</p>
 							{/* GitHub profile */}
